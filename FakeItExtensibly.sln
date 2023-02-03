@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeItExtensibly", "FakeItExtensibly\FakeItExtensibly.csproj", "{FB70174E-E65D-4A48-9E93-B2192DCDF41E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2E67B0A-D391-4EAF-80C7-DF1CAB2ABF00}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		License.txt = License.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B641B638-8D4B-4E1F-AC0B-9564B425BE15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeItExtensibly.UnitTests", "Tests\FakeItExtensibly.UnitTests\FakeItExtensibly.UnitTests.csproj", "{EA4E559A-DBE5-48BA-8FB4-7B9A6671CAC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeItExtensibly.Vocabulary", "FakeItExtensibly.Vocabulary\FakeItExtensibly.Vocabulary.csproj", "{FC2DC45F-68F2-4F07-AF9E-4027D425ABA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeItExtensibly.Vocabulary.UnitTests", "Tests\FakeItExtensibly.Vocabulary.UnitTests\FakeItExtensibly.Vocabulary.UnitTests.csproj", "{67EED609-6E96-4707-9DA9-1F7C08CA9156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB70174E-E65D-4A48-9E93-B2192DCDF41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB70174E-E65D-4A48-9E93-B2192DCDF41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB70174E-E65D-4A48-9E93-B2192DCDF41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB70174E-E65D-4A48-9E93-B2192DCDF41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4E559A-DBE5-48BA-8FB4-7B9A6671CAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4E559A-DBE5-48BA-8FB4-7B9A6671CAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4E559A-DBE5-48BA-8FB4-7B9A6671CAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4E559A-DBE5-48BA-8FB4-7B9A6671CAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2DC45F-68F2-4F07-AF9E-4027D425ABA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2DC45F-68F2-4F07-AF9E-4027D425ABA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2DC45F-68F2-4F07-AF9E-4027D425ABA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2DC45F-68F2-4F07-AF9E-4027D425ABA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EED609-6E96-4707-9DA9-1F7C08CA9156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EED609-6E96-4707-9DA9-1F7C08CA9156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EED609-6E96-4707-9DA9-1F7C08CA9156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EED609-6E96-4707-9DA9-1F7C08CA9156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA4E559A-DBE5-48BA-8FB4-7B9A6671CAC8} = {B641B638-8D4B-4E1F-AC0B-9564B425BE15}
+		{67EED609-6E96-4707-9DA9-1F7C08CA9156} = {B641B638-8D4B-4E1F-AC0B-9564B425BE15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7DDABF0-ADEC-4761-9E75-6F6B9CF6A54B}
+	EndGlobalSection
+EndGlobal
