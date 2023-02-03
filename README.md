@@ -1,6 +1,10 @@
 # FakeItExtensibly
 
-A wrapping  API for FakeItEasy that can be extended with extension methods.
+
+[![Nuget Version](https://img.shields.io/nuget/v/FakeItExtensibly?label=FakeItExtensibly)](https://www.nuget.org/packages/FakeItExtensibly/)
+[![Nuget Version](https://img.shields.io/nuget/v/FakeItExtensibly.Vocabulary?label=FakeItExtensibly.Vocabulary)](https://www.nuget.org/packages/FakeItExtensibly.Vocabulary/)
+
+A wrapping API for FakeItEasy that can be extended with extension methods.
 
 ## Why?
 
