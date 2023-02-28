@@ -8,7 +8,7 @@
   <PropertyGroup>
     <Title>FakeItExtensibly.Vocabulary</Title>
     <Description>Provides vocabulary for FakeItExtensibly keywords.</Description>
-    <PackageReleaseNotes>The initial release and vocabulary version. Adds `Guid`, `String`, and `Id`.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating package with more metadata and SourceLink support.</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 

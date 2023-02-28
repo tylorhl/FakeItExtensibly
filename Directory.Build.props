@@ -1,16 +1,25 @@
 <Project>
-    <PropertyGroup>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <LangVersion>11.0</LangVersion>
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>11.0</LangVersion>
+  </PropertyGroup>
 
-        <VersionPrefix>0.1.0</VersionPrefix>
-    </PropertyGroup>
+  <PropertyGroup>
+    <VersionPrefix>0.1.1</VersionPrefix>
 
-    <PropertyGroup>
-        <Authors>tylorhl</Authors>
-        <Copyright>Copyright (c) FakeItExtensibly contributors.</Copyright>
+    <Authors>tylorhl</Authors>
+    <Copyright>Copyright (c) FakeItExtensibly contributors.</Copyright>
 
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageTags>FakeItEasy;test;unittest;fakes;dummies;mocks;fluent;extensible</PackageTags>
-    </PropertyGroup>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>FakeItEasy;test;unittest;fakes;dummies;mocks;fluent;extensible</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+  </ItemGroup>
 </Project>
