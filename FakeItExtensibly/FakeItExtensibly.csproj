@@ -10,7 +10,7 @@
   <PropertyGroup>
     <Title>FakeItExtensibly</Title>
     <Description>An API that wraps FakeItEasy to be extended with method extensions.</Description>
-    <PackageReleaseNotes>The initial release and version. Add a static using for `FakeItExtensibly.SomeKeyword` and use `Some` like you would `A`.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating package with more metadata and SourceLink support.</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
