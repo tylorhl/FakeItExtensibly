@@ -10,13 +10,14 @@
     <Authors>tylorhl</Authors>
     <Copyright>Copyright (c) FakeItExtensibly contributors.</Copyright>
 
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>FakeItEasy;test;unittest;fakes;dummies;mocks;fluent;extensible</PackageTags>
+
+    <!-- SourceLink properties -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>FakeItEasy;test;unittest;fakes;dummies;mocks;fluent;extensible</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
